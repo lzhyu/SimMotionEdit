@@ -1,0 +1,13 @@
+_target_: src.model.tmed_denoiser.TMED_denoiser
+text_encoded_dim: 768 # or 512 patch-14-large or base
+ff_size: 1024
+num_layers: 8
+num_heads: 4
+dropout: 0.1
+activation: 'gelu'
+condition: ${model.condition}
+motion_condition: ${model.motion_condition}
+latent_dim: ${model.latent_dim}
+nfeats: ${model.nfeats} # TODO FIX THIS
+use_sep: true
+pred_delta_motion: false

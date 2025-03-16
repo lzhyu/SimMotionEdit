@@ -1,0 +1,16 @@
+_target_: src.model.DiT_denoiser_cls.DiT_Denoiser_CLS
+text_encoded_dim: 768 # or 512 patch-14-large or base
+ff_size: 1024
+num_layers: 8
+num_heads: 8
+dropout: 0.1
+activation: 'gelu'
+condition: ${model.condition}
+motion_condition: ${model.motion_condition}
+latent_dim: ${model.latent_dim}
+nfeats: ${model.nfeats} 
+use_sep: true
+pred_delta_motion: false
+repr_dim: 256
+n_cls: 3
+encoder_layers: 4 # 4?

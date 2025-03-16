@@ -1,0 +1,15 @@
+logger_name: wandb
+name: ${experiment}-${run_id}
+
+save_dir: wandb
+project: ${project}
+group: null
+tags: null
+notes: null
+
+offline: false
+resume: false
+save_code: false
+log_model: false
+
+#    wandb.watch(model, log=cfg.log, log_freq=cfg.log_freq)

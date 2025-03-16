@@ -1,0 +1,57 @@
+hydra:
+  run:
+    dir: ${expdir}/${project}/${experiment}/${run_id}/
+  job:
+    chdir: true
+    env_set:
+      # if you want to use wandb you should assign this key
+      WANDB_API_KEY: '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'
+      PYOPENGL_PLATFORM: 'egl'
+      HYDRA_FULL_ERROR: 1
+      WANDB__SERVICE_WAIT: 300
+  
+debug: false
+
+# Global configurations shared between different modules
+expdir: ${get_expdir:${debug}}
+experiment: ${data.dataname}
+# must be the same when you are resuming experiment
+project: new_code
+seed: 42
+logger_level: INFO
+run_id: ${generate_id:}
+# For finetuning
+resume: ${working_path:${expdir}/${project}/${experiment}/${run_id}/}
+resume_ckpt_name: 'last'
+renderer: null # ait # null
+
+# log gradients/weights
+watch_model: false
+log_freq: 1000
+log: 'all'
+
+devices: 1
+
+# For finetuning
+ftune: null #${working_path:""} #/depot/bera89/data/li5280/project/motionfix/experiments/sigga-cr/baseline/baseline
+ftune_ckpt_name: 'last' # 'all'
+ftune_ckpt_path: ${get_last_checkpoint:${ftune},${ftune_ckpt_name}}
+
+statistics_file: statistics_${data.dataname}${get_debug:${debug}}.npy
+# statistics_file: "statistics_amass_circle.py"
+statistics_path: ${path.deps}/stats/${statistics_file}
+
+
+# Composing nested config with default
+defaults:
+  - data: motionfix
+  - model: basic_clip_cls_arch
+  - machine: server
+  - trainer: base-longer
+  - sampler: variable_conseq # cut it
+  - logger: tensorboard # wandb
+  - callback: base
+  - /path@path
+  - override hydra/job_logging: rich
+  - override hydra/hydra_logging: rich
+  - _self_
