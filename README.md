@@ -15,7 +15,10 @@
     CVPR 2025
   </p>
 </p>
-
+<p align="center">
+ <a><img src="assets/simcurve.gif" width="480" height="270"></a>
+ </p>
+ 
 ## Environment Setup
 Please follow [motionfix](https://github.com/atnikos/motionfix) to download the dataset and set up the environment.
 
