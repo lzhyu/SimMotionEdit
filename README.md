@@ -49,7 +49,7 @@ python -u train.py --config-name="train_cls_arch" experiment=cls_arch run_id=no_
 ```
 
 ## Acknowledgements
-Our code is heavily based on: [motionfix](https://github.com/atnikos/motionfix). 
+Our code is based on: [motionfix](https://github.com/atnikos/motionfix). 
 
 ## License
 This code is distributed under an MIT LICENSE. We also include the LICENSE of motionfix in our repo. Other third-party datasets and software are subject to their respective licenses.
