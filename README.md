@@ -1,5 +1,5 @@
 <p align="center">
-<strong>SimMotionEdit: Text-Based Human Motion Editing with Motion Similarity Prediction</strong></h1>
+<h2>SimMotionEdit: Text-Based Human Motion Editing with Motion Similarity Prediction</h2>
   <p align="center">
     <a href='https://scholar.google.com/citations?user=HXN7DNoAAAAJ' target='_blank'>Zhengyuan Li</a>&emsp;
     <a href='https://scholar.google.com/citations?user=uF17d-wAAAAJ' target='_blank'>Kai Cheng</a>&emsp;
