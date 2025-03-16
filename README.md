@@ -8,7 +8,7 @@
     <a href='https://cs.illinois.edu/about/people/faculty/lgui' target='_blank'>Liang-Yan Gui</a>&emsp;
     <a href='https://www.cs.purdue.edu/homes/ab/' target='_blank'>Aniket Bera</a>&emsp;
     <br>
-    Purdue University
+    Purdue University, DFKI, MPI-INF, Saarland Informatics Campus, Adobe Inc., University of Illinois Urbana-Champaign
     <br>
     CVPR 2025
   </p>
