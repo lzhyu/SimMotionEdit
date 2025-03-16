@@ -15,9 +15,14 @@
     CVPR 2025
   </p>
 </p>
-<p align="center">
- <a><img src="assets/simcurve.gif" width="480" height="270"></a>
- </p>
+
+<div align="center">
+ 
+| Motion Similarity                                                                                               | Text-based Motion Editing                                                                                           |
+|-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| <a><img src="assets/simcurve.gif" width="350" height="250"></a> | <a href="https://motionfix.is.tue.mpg.de/explore.php"><img src="assets/editing.gif" width="350" height="250"></a> |
+
+</div>
  
 ## Environment Setup
 Please follow [motionfix](https://github.com/atnikos/motionfix) to download the dataset and set up the environment.
