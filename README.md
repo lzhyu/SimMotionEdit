@@ -16,6 +16,14 @@
   </p>
 </p>
 
+<p align="center">
+  <a href='https://arxiv.org/abs/2503.18211'>
+    <img src='https://img.shields.io/badge/Arxiv-2503.18211-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
+  </a>
+    <a href='https://github.com/lzhyu/SimMotionEdit'>
+    <img src='https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github&logoColor=white'></a>
+</p>
+
 <div align="center">
  
 | Motion Similarity                                                                                               | Text-based Motion Editing                                                                                           |
