@@ -61,3 +61,17 @@ Our code is based on: [motionfix](https://github.com/atnikos/motionfix).
 
 ## License
 This code is distributed under an MIT LICENSE. We also include the LICENSE of motionfix in our repo. Other third-party datasets and software are subject to their respective licenses.
+
+## Citation
+You can cite this paper using:
+
+```bibtex
+@article{li2025simmotionedittextbasedhumanmotion,
+      title={SimMotionEdit: Text-Based Human Motion Editing with Motion Similarity Prediction}, 
+      author={Zhengyuan Li and Kai Cheng and Anindita Ghosh and Uttaran Bhattacharya and Liangyan Gui and Aniket Bera},
+      year={2025},
+      eprint={2503.18211},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
