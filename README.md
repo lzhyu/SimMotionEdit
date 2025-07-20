@@ -57,6 +57,9 @@ python compute_metrics.py folder=/path/to/exp/samples/npys
 python -u train.py --config-name="train_cls_arch" experiment=cls_arch run_id=no_text
 ```
 
+## Visualization
+Please refer to https://github.com/atnikos/motionfix/issues/2.
+
 ## Acknowledgements
 Our code is based on: [motionfix](https://github.com/atnikos/motionfix). 
 
