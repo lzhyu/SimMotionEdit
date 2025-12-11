@@ -52,6 +52,7 @@ python motionfix_evaluate.py folder=/path/to/exp/ guidance_scale_text_n_motion=2
 python compute_metrics.py folder=/path/to/exp/samples/npys
 ```
 
+
 ## M-Score Evaluation
 
 - Clone [MotionCritic](https://github.com/ou524u/MotionCritic) and install the environment.
@@ -62,6 +63,10 @@ python compute_metrics.py folder=/path/to/exp/samples/npys
 ```bash
 python -u train.py --config-name="train_cls_arch" experiment=cls_arch run_id=no_text
 ```
+
+## Similarity Score Calculation
+-  Change `smpl_layer = smplx.SMPL(model_path=r"PATH/TO/FOLDER/THAT/HAS/SMPL_NEUTRAL.pkl").to(model.device)`
+-  `python preprocess_score_v3.py folder=/PATH/TO/EXP`
 
 ## Visualization
 Please refer to https://github.com/atnikos/motionfix/issues/2.
