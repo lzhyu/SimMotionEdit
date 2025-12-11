@@ -52,6 +52,12 @@ python motionfix_evaluate.py folder=/path/to/exp/ guidance_scale_text_n_motion=2
 python compute_metrics.py folder=/path/to/exp/samples/npys
 ```
 
+## M-Score Evaluation
+
+- Clone [MotionCritic](https://github.com/ou524u/MotionCritic) and install the environment.
+- Put `compute_mscore.py`under `MotionCritic/MotionCritic`, change `directory_path`.
+- `python compute_mscore.py`
+
 ## Training
 ```bash
 python -u train.py --config-name="train_cls_arch" experiment=cls_arch run_id=no_text
