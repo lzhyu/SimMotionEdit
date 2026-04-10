@@ -21,7 +21,7 @@
     <img src='https://img.shields.io/badge/Arxiv-2503.18211-A42C25?style=flat&logo=arXiv&logoColor=A42C25'></a>
     <a href='https://github.com/lzhyu/SimMotionEdit'>
     <img src='https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github&logoColor=white'></a>
-  <a href='https://ideas.cs.purdue.edu/research/projects/sim-motion-edit/'>
+  <a href='https://lzhyu.github.io/SimMotionEdit.github.io/'>
   <img src='https://img.shields.io/badge/Project-Page-green?style=flat&logo=Google%20chrome&logoColor=green'></a>
 </p>
 
